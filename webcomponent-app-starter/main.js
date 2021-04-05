@@ -10,7 +10,7 @@
         <div class="collapse navbar-collapse ${this.show?"show":""}" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">Home</a>
+              <a class="nav-link active" aria-current="page" href="./">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="pageOne">Page 1</a>
@@ -30,7 +30,7 @@
         background-color: violet
       }
     `]}render(){return M`
-      <h3>Webcomponent with external style (Bootstrap)1</h3>
+      <h3>Webcomponent with external style (Bootstrap)</h3>
       <div class="card">
         <div class="card-body">
           <button type="button" class="btn btn-primary">Primary</button>
@@ -58,7 +58,6 @@
                   <input type="number" class="form-control" value="${this._counter}">
                   <button @click="${()=>kt.dispatch(Ct())}" type="button" class="btn  btn-primary">+</button>
                 </div>
-                
     `}};Wn([Y(),zn("design:type",Object)],qn.prototype,"_counter",void 0),Wn([Tt(),zn("design:type",Object),zn("design:paramtypes",[])],qn,"styles",null),qn=Wn([J("ex-counter")],qn);var Kn=function(e,t,n,r){var o,i=arguments.length,s=i<3?t:null===r?r=Object.getOwnPropertyDescriptor(t,n):r;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)s=Reflect.decorate(e,t,n,r);else for(var a=e.length-1;a>=0;a--)(o=e[a])&&(s=(i<3?o(s):i>3?o(t,n,s):o(t,n))||s);return i>3&&s&&Object.defineProperty(t,n,s),s},Jn=function(e,t){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(e,t)};let Xn=class extends re{constructor(){super(...arguments),this._text="Test me"}static get styles(){return[te`
           :host{
               display: block;
