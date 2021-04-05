@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/bootstrap.css"  crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css" crossorigin="anonymous">
 
-
+    <base href="//webcomponent-app-starter/" target="_blank">
     <!-- Load polyfills -->
     <script src="libs/webcomponents-loader.js" defer> </script>
 
@@ -18,7 +18,7 @@
         // webcomponents-loader.js (e.g. Firefox script execution order)
         window.WebComponents = window.WebComponents || {
             waitFor(cb) { addEventListener('WebComponentsReady', cb) }
-            }
+        }
 
         WebComponents.waitFor(async () => {
             await import('./main.js');
